@@ -1,0 +1,6 @@
+{
+  "name": "AI or Not - Campus Tech Mini-Game",
+  "description": "Mini-game pameran booth komunitas IT: Uji ketajaman matamu membedakan gambar AI vs Bukan AI dalam 30 detik!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
