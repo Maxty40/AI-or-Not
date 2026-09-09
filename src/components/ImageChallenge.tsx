@@ -79,7 +79,7 @@ export const ImageChallenge: React.FC<ImageChallengeProps> = ({ item, roundNumbe
         id="image-stage-wrapper"
         onMouseMove={handleMouseMove}
         onClick={toggleZoom}
-        className={`relative w-full max-h-[460px] h-[340px] sm:h-[420px] rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl flex items-center justify-center cursor-zoom-in group select-none transition-all ${
+        className={`relative w-full max-h-[560px] h-[380px] sm:h-[540px] rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl flex items-center justify-center cursor-zoom-in group select-none transition-all ${
           isZoomed ? 'ring-2 ring-cyan-500/40' : ''
         }`}
       >

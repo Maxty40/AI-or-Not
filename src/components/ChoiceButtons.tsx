@@ -50,12 +50,9 @@ export const ChoiceButtons: React.FC<ChoiceButtonsProps> = ({ onSelect, disabled
                 <span className="text-xl sm:text-2xl font-black text-white tracking-tight">
                   AI
                 </span>
-                <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-                  Generatif
-                </span>
               </div>
               <p className="text-xs text-indigo-200/70 mt-0.5">
-                Dibuat algoritma komputasi
+                Dibuat oleh Generatif AI
               </p>
             </div>
           </div>
@@ -83,12 +80,9 @@ export const ChoiceButtons: React.FC<ChoiceButtonsProps> = ({ onSelect, disabled
                 <span className="text-xl sm:text-2xl font-black text-white tracking-tight">
                   Bukan AI
                 </span>
-                <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                  Foto Asli
-                </span>
               </div>
               <p className="text-xs text-emerald-200/70 mt-0.5">
-                Fotografi dunia nyata / kamera
+                Fotografi / ilustrasi nyata
               </p>
             </div>
           </div>
@@ -102,7 +96,7 @@ export const ChoiceButtons: React.FC<ChoiceButtonsProps> = ({ onSelect, disabled
       </div>
 
       <div className="text-center text-[11px] text-slate-400">
-        💡 <span className="text-slate-300 font-medium">Tips Booth:</span> Tekan tombol di layar atau gunakan tombol <kbd className="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-slate-300 font-mono">1</kbd> / <kbd className="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-slate-300 font-mono">2</kbd> pada keyboard.
+        <span className="text-slate-300 font-medium">Tips:</span> Klik tombol di layar atau gunakan tombol <kbd className="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-slate-300 font-mono">1</kbd> / <kbd className="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-slate-300 font-mono">2</kbd> pada keyboard.
       </div>
     </div>
   );

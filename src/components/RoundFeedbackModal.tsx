@@ -68,10 +68,10 @@ export const RoundFeedbackModal: React.FC<RoundFeedbackModalProps> = ({
             <div className="flex items-center gap-2">
               <h3 className="text-xl font-black text-white">
                 {isCorrect
-                  ? 'Tebakanmu Tepat! 🎉'
+                  ? 'Tebakanmu Tepat!'
                   : timedOut
-                  ? 'Waktu 30 Detik Habis! ⏱️'
-                  : 'Kurang Tepat! 🧐'}
+                  ? 'Waktu 30 Detik Habis!'
+                  : 'Kurang Tepat!'}
               </h3>
             </div>
             <p className="text-xs text-slate-400">
@@ -95,7 +95,7 @@ export const RoundFeedbackModal: React.FC<RoundFeedbackModalProps> = ({
                   : 'bg-emerald-950 text-emerald-300 border-emerald-500/40'
               }`}
             >
-              {item.isAi ? '🤖 HASIL GENERASI AI' : '📷 FOTO ASLI (BUKAN AI)'}
+              {item.isAi ? 'HASIL GENERASI AI' : 'GAMBAR ASLI (BUKAN AI)'}
             </span>
           </div>
 

@@ -275,7 +275,7 @@ export default function App() {
 
         {/* Screen 2: Active Gameplay (1 Image + 30s Timer + Two Buttons) */}
         {(screen === 'playing' || screen === 'round_result') && currentItem && (
-          <div id="gameplay-container" className="w-full max-w-xl flex flex-col items-center animate-in fade-in duration-150">
+          <div id="gameplay-container" className="w-full max-w-3xl flex flex-col items-center animate-in fade-in duration-150">
             {/* 30 Seconds Timer Bar */}
             <div className="w-full mb-3">
               <TimerBar timeLeft={timeLeft} maxTime={MAX_ROUND_SECONDS} />
