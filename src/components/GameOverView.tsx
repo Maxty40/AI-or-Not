@@ -26,14 +26,6 @@ export const GameOverView: React.FC<GameOverViewProps> = ({
     BOOTH_RANKS.find((r) => totalScore >= r.minScore && totalScore <= r.maxScore) ||
     BOOTH_RANKS[BOOTH_RANKS.length - 1];
 
-  const handleShare = () => {
-    sound.playClick();
-    const text = `🎯 Skor AI or Not Booth HIMATIF Expo: ${totalScore} Poin! (${correctCount}/${totalRounds} Benar - Gelar: ${earnedRank.title}). Buktikan ketajaman matamu juga!`;
-    navigator.clipboard?.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
-  };
-
   return (
     <div id="game-over-screen" className="w-full max-w-3xl mx-auto py-4 px-3 sm:px-4 space-y-6">
       {/* Score Hero Card */}
@@ -43,14 +35,14 @@ export const GameOverView: React.FC<GameOverViewProps> = ({
 
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-500/40 text-indigo-300 text-xs font-bold mb-3">
           <Trophy className="w-4 h-4 text-amber-400" />
-          <span>HASIL PERMAINAN BOOTH</span>
+          <span>FINAL SCORE</span>
         </div>
 
         <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-2">
-          Permainan Selesai!
+          Game Over!
         </h2>
         <p className="text-slate-400 text-sm max-w-md mx-auto">
-          Terima kasih telah berkunjung ke booth kami! Inilah evaluasi kemampuan deteksi visual AI kamu dalam 5 ronde tantangan:
+          Terima kasih telah berkunjung ke booth kami! Inilah hasil kemampuan kamu dalam mendeteksi visual AI kamu dalam 5 ronde tantangan:
         </p>
 
         {/* Main Big Score */}
@@ -109,16 +101,6 @@ export const GameOverView: React.FC<GameOverViewProps> = ({
           >
             <RotateCcw className="w-4 h-4" />
             <span>Main Lagi (5 Ronde Baru)</span>
-          </button>
-
-          <button
-            id="btn-share-result"
-            onClick={handleShare}
-            className="py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-semibold text-sm transition-all active:scale-95"
-            title="Salin hasil skor"
-          >
-            <Share2 className="w-4 h-4 inline mr-1.5" />
-            <span>{copied ? 'Tersalin!' : 'Bagikan Hasil'}</span>
           </button>
         </div>
       </div>

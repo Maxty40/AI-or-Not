@@ -255,7 +255,6 @@ export default function App() {
 
             {/* Locked 5 Rounds Notice */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900/90 border border-indigo-500/30 text-indigo-300 text-xs font-semibold">
-              <Target className="w-4 h-4 text-cyan-400" />
               <span>Format Tantangan: <strong className="text-white font-bold">5 Ronde Penuh Kejutan</strong></span>
             </div>
 
@@ -275,7 +274,7 @@ export default function App() {
 
         {/* Screen 2: Active Gameplay (1 Image + 30s Timer + Two Buttons) */}
         {(screen === 'playing' || screen === 'round_result') && currentItem && (
-          <div id="gameplay-container" className="w-full max-w-xl flex flex-col items-center animate-in fade-in duration-150">
+          <div id="gameplay-container" className="w-full max-w-3xl flex flex-col items-center animate-in fade-in duration-150">
             {/* 30 Seconds Timer Bar */}
             <div className="w-full mb-3">
               <TimerBar timeLeft={timeLeft} maxTime={MAX_ROUND_SECONDS} />

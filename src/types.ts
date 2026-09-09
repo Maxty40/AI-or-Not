@@ -3,7 +3,7 @@ export interface ImageChallengeItem {
   imageUrl: string;
   isAi: boolean; // true = AI generated, false = Real / Bukan AI
   title: string;
-  category: 'Potret Wajah' | 'Kuliner' | 'Hewan & Alam' | 'Arsitektur' | 'Street Life' | 'Teknologi';
+  category: 'Potret Wajah' | 'Kuliner' | 'Hewan' | 'Alam' | 'Arsitektur' | 'Teknologi' | 'Ilustrasi';
   difficulty: 'Mudah' | 'Sedang' | 'Tantangan';
   creatorInfo: string; // e.g. "Generated with Midjourney v6" or "Shot on Sony Alpha A7R V"
   source?: string; // e.g. "Karya Christopher Campbell" for real photos

@@ -36,16 +36,14 @@ export const BoothHeader: React.FC<BoothHeaderProps> = ({
           onClick={onResetToWelcome}
           className="flex min-w-0 shrink-0 items-center gap-2.5 text-left group transition-transform active:scale-95"
         >
-          <div className="w-9 overflow-hidden ">
+          <div className="w-9 h-9 rounded-xl flex items-center justify-center">
             {logoFailed ? (
-              <div className="w-full h-full flex items-center justify-center">
-                <Sparkles className="w-4 h-4 text-cyan-400 group-hover:rotate-12 transition-transform" />
-              </div>
+              <Sparkles className="w-4 h-4 text-cyan-400 group-hover:rotate-12 transition-transform" />
             ) : (
               <img
                 src="/assets/logo/logo.png"
                 alt="Logo AI or Not"
-                className="w-full h-full object-cover"
+                className="w-full object-cover"
                 onError={() => setLogoFailed(true)}
               />
             )}
