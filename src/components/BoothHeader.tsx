@@ -43,11 +43,11 @@ export const BoothHeader: React.FC<BoothHeaderProps> = ({
             <div className="flex items-center gap-1.5">
               <span className="font-black text-white text-base sm:text-lg tracking-tight">AI or Not?</span>
               <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-                EXPO '26
+                ORMIK '26
               </span>
             </div>
             <p className="text-[11px] text-slate-400 hidden sm:block">
-              HIMATIF Tech Exhibition • Booth Komunitas
+              Google Developer Groups on Campus • STT Terpadu Nurul Fikri
             </p>
           </div>
         </button>

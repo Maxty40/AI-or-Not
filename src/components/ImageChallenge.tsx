@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ZoomIn, ZoomOut, Eye, Sparkles } from 'lucide-react';
 import { ImageChallengeItem } from '../types';
 import { sound } from '../utils/soundEffects';
+
+const FALLBACK_IMAGE_URL = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80';
 
 interface ImageChallengeProps {
   item: ImageChallengeItem;
@@ -10,8 +12,16 @@ interface ImageChallengeProps {
 
 export const ImageChallenge: React.FC<ImageChallengeProps> = ({ item, roundNumber }) => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [imageUrl, setImageUrl] = useState(item.imageUrl);
   const [isZoomed, setIsZoomed] = useState(false);
   const [zoomCoords, setZoomCoords] = useState({ x: 50, y: 50 });
+
+  useEffect(() => {
+    setIsLoaded(false);
+    setImageUrl(item.imageUrl);
+    setIsZoomed(false);
+    setZoomCoords({ x: 50, y: 50 });
+  }, [item.id, item.imageUrl]);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!isZoomed) return;
@@ -85,10 +95,17 @@ export const ImageChallenge: React.FC<ImageChallengeProps> = ({ item, roundNumbe
         <img
           id="challenge-image-element"
           key={item.id}
-          src={item.imageUrl}
+          src={imageUrl}
           alt={item.title}
           referrerPolicy="no-referrer"
           onLoad={() => setIsLoaded(true)}
+          onError={() => {
+            if (imageUrl !== FALLBACK_IMAGE_URL) {
+              setImageUrl(FALLBACK_IMAGE_URL);
+              return;
+            }
+            setIsLoaded(true);
+          }}
           className={`w-full h-full object-cover transition-transform duration-200 ease-out ${
             isLoaded ? 'opacity-100' : 'opacity-0'
           }`}

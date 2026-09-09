@@ -199,7 +199,7 @@ export default function App() {
             {/* Campus tech banner */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-900 border border-slate-700/80 text-cyan-300 text-xs font-semibold shadow-inner">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-              <span>Booth Komunitas TI • Interactive Campus Exhibition</span>
+              <span>Booth Interaktif GDGoC STT Terpadu Nurul Fikri</span>
             </div>
 
             <div className="space-y-3">
@@ -210,7 +210,7 @@ export default function App() {
                 </span>
               </h1>
               <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-                Tantang ketajaman matamu membedakan jepretan kamera asli dunia nyata vs citra hasil generasi AI dalam format tantangan cepat 5 ronde!
+                Tantang ketajaman matamu membedakan jepretan kamera asli <b>vs</b> ilustrasi nyata <b>vs</b> citra hasil generasi AI dalam format tantangan cepat 5 ronde!
               </p>
             </div>
 
@@ -221,9 +221,9 @@ export default function App() {
                   <Eye className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">1 Gambar Acak</h4>
+                  <h4 className="text-xs font-bold text-white">Gambar Acak</h4>
                   <p className="text-[11px] text-slate-400 mt-0.5">
-                    Fokus penuh menganalisis satu foto per ronde dengan fitur kaca pembesar.
+                    Analisis satu foto per ronde dengan fitur kaca pembesar.
                   </p>
                 </div>
               </div>
@@ -233,7 +233,7 @@ export default function App() {
                   <Zap className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">30 Detik / Ronde</h4>
+                  <h4 className="text-xs font-bold text-white">Latih Ketangkasan</h4>
                   <p className="text-[11px] text-slate-400 mt-0.5">
                     Timer hitung mundur cepat. Makin cepat tebak tepat, poin makin tinggi.
                   </p>
@@ -245,7 +245,7 @@ export default function App() {
                   <Cpu className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-white">Dua Tombol</h4>
+                  <h4 className="text-xs font-bold text-white">Tebak Gambarnya</h4>
                   <p className="text-[11px] text-slate-400 mt-0.5">
                     Pilih "AI" atau "Bukan AI" disertai sumber dan pembahasan edukatif.
                   </p>
@@ -269,12 +269,6 @@ export default function App() {
                 <Play className="w-5 h-5 fill-white group-hover:translate-x-0.5 transition-transform" />
                 <span>Mulai Tantangan (5 Ronde)</span>
               </button>
-            </div>
-
-            {/* Booth Live Context Info */}
-            <div className="pt-2 flex items-center justify-center gap-2 text-xs text-slate-500">
-              <Users className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Booth Pameran Komunitas Teknik Informatika • Terbuka untuk Semua Mahasiswa & Pengunjung</span>
             </div>
           </div>
         )}
@@ -327,18 +321,10 @@ export default function App() {
 
       {/* Footer */}
       <footer className="w-full py-3 px-4 border-t border-slate-900 bg-slate-950 text-center text-xs text-slate-500">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2">
           <p>
-            Dibuat oleh Komunitas Mahasiswa Teknik Informatika untuk Pameran Kampus Expo 2026.
+            Dibuat oleh Mahasiswa Gabut Kebelet Ngoding (Padahal Nggak Bisa Ngoding)
           </p>
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setShowGuide(true)}
-              className="text-slate-400 hover:text-cyan-300 transition-colors"
-            >
-              Panduan & Tips Deteksi AI
-            </button>
-          </div>
         </div>
       </footer>
     </div>

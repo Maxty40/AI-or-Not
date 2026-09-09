@@ -47,10 +47,10 @@ export const CampusGuideModal: React.FC<CampusGuideModalProps> = ({ onClose }) =
             </div>
             <div>
               <h3 className="text-base sm:text-lg font-black text-white">
-                Panduan Detektif AI (Tips Booth)
+                Panduan Detektif AI
               </h3>
               <p className="text-xs text-slate-400">
-                Catatan khusus dari Divisi AI & Multimedia Komunitas IT Kampus
+                Panduan Singkat Agar Kamu Menang!
               </p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export const CampusGuideModal: React.FC<CampusGuideModalProps> = ({ onClose }) =
         {/* Content */}
         <div className="overflow-y-auto py-3 space-y-3 flex-1 pr-1">
           <div className="p-3 bg-indigo-950/40 border border-indigo-500/30 rounded-xl text-xs text-indigo-200 leading-relaxed">
-            🎓 <strong className="text-white">Tips Panitia:</strong> Gunakan fitur <strong>"Kaca Pembesar"</strong> di atas gambar untuk memperbesar tekstur mikro sebelum menekan tombol tebakan!
+            <strong className="text-white">Tips Panitia:</strong> Gunakan fitur <strong>"Kaca Pembesar"</strong> di atas gambar untuk memperbesar tekstur mikro sebelum menekan tombol tebakan!
           </div>
 
           {tips.map((tip, idx) => (
