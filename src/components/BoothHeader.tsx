@@ -25,6 +25,8 @@ export const BoothHeader: React.FC<BoothHeaderProps> = ({
   totalRounds,
   isPlaying = false,
 }) => {
+  const [logoFailed, setLogoFailed] = React.useState(false);
+
   return (
     <header id="booth-header" className="w-full bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40 px-4 py-3 sm:px-6">
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-3">
@@ -34,10 +36,17 @@ export const BoothHeader: React.FC<BoothHeaderProps> = ({
           onClick={onResetToWelcome}
           className="flex items-center gap-2.5 text-left group transition-transform active:scale-95"
         >
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 p-0.5 shadow-md shadow-indigo-500/20">
-            <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+          <div className="w-9 h-9 rounded-xl flex items-center justify-center">
+            {logoFailed ? (
               <Sparkles className="w-4 h-4 text-cyan-400 group-hover:rotate-12 transition-transform" />
-            </div>
+            ) : (
+              <img
+                src="/assets/logo/logo.png"
+                alt="Logo AI or Not"
+                className="w-full object-cover"
+                onError={() => setLogoFailed(true)}
+              />
+            )}
           </div>
           <div>
             <div className="flex items-center gap-1.5">
