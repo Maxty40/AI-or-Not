@@ -355,199 +355,199 @@ export const QUIZ_ITEMS: ImageChallengeItem[] = [
     id: 'ai-gen-woman-26',
     imageUrl: '/img/ai-gen-woman-26.jpg',
     isAi: true,
-    title: '',
+    title: 'Potret Wanita Muda dengan Cahaya Lembut',
     category: 'Potret Wajah',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Synthetic Editorial Portrait',
+    clues: ['Tekstur kulit tampak terlalu halus dan seragam.', 'Helai rambut menyatu secara tidak wajar di beberapa bagian.', 'Pantulan cahaya pada kedua mata tidak sepenuhnya konsisten.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa potret editorial wanita dengan pencahayaan lembut. Detail kulit, rambut, dan pantulan mata menunjukkan hasil sintesis digital.'
   },
   {
     id: 'ai-gen-love-27',
     imageUrl: '/img/ai-gen-love-27.jpg',
     isAi: true,
-    title: '',
+    title: 'Robot Kecil di Dunia Warna-warni',
     category: 'Ilustrasi',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Colorful Robot Illustration',
+    clues: ['Sapuan warna mengalir tanpa tekstur media fisik yang konsisten.', 'Sambungan lengan dan kaki robot tidak menunjukkan mekanisme jelas.', 'Pantulan warna pada tubuh robot berasal dari arah yang tidak seragam.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa ilustrasi robot kecil dengan palet warna cerah dan bentuk mekanis yang bersifat imajinatif.'
   },
   {
     id: 'ai-ilustration-people-28',
     imageUrl: '/img/ai-ilustartion-people-28.jpg',
     isAi: true,
-    title: '',
+    title: 'Komposisi Karakter dalam Ilustrasi Abstrak',
     category: 'Ilustrasi',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Abstract Character Illustration',
+    clues: ['Bentuk karakter dan latar menyatu tanpa batas objek yang jelas.', 'Detail kecil berulang dengan pola digital.', 'Arah cahaya pada beberapa bidang tidak konsisten.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa ilustrasi abstrak dengan karakter dan elemen visual yang disintesis secara digital.'
   },
   {
     id: 'ai-gen-cat-29',
     imageUrl: '/img/ai-gen-cat-29.jpg',
     isAi: true,
-    title: '',
+    title: 'Kucing Hitam di Antara Bunga Kuning',
     category: 'Hewan',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Stylized Black Cat Portrait',
+    clues: ['Bulu di sekitar wajah tampak terlalu seragam dan simetris.', 'Mata memiliki pantulan yang sangat mirip satu sama lain.', 'Bunga latar berulang dengan bentuk dan warna yang terlalu konsisten.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa potret kucing hitam dengan latar bunga kuning. Simetri wajah, bulu, dan latar memperlihatkan karakter visual generatif.'
   },
   {
     id: 'ai-gen-cartoon-30',
     imageUrl: '/img/ai-gen-cartoon-30.jpg',
     isAi: true,
-    title: '',
+    title: 'Robot Kartun di Latar Cat Warna-warni',
     category: 'Ilustrasi',
     difficulty: 'Sedang',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Cartoon Robot Concept Art',
+    clues: ['Bentuk tangan dan jari robot tidak memiliki struktur mekanis yang jelas.', 'Sapuan cat latar membentuk pola yang terlalu mulus.', 'Pantulan pada permukaan logam tidak mengikuti satu sumber cahaya.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa robot kartun dengan latar abstrak penuh warna dan detail mekanis imajinatif.'
   },
   {
     id: 'ai-gen-employee-31',
     imageUrl: '/img/ai-gen-employee-31.jpg',
     isAi: true,
-    title: '',
+    title: 'Wanita Profesional di Lingkungan Kantor',
     category: 'Potret Wajah',
     difficulty: 'Sedang',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Corporate Editorial Portrait',
+    clues: ['Kulit wajah terlalu mulus dibandingkan tekstur jas dan latar.', 'Jari dan tangan yang terlipat perlu diperiksa karena bentuknya sangat halus.', 'Pencahayaan wajah dan lampu latar tidak sepenuhnya memiliki arah yang sama.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa potret profesional di kantor. Komposisinya realistis, tetapi tekstur kulit, tangan, dan pencahayaan menunjukkan sintesis digital.'
   },
   {
     id: 'ai-gen-dog-32',
     imageUrl: '/img/ai-gen-dog-32.jpg',
     isAi: true,
-    title: '',
+    title: 'Anjing Putih Berlari di Atas Salju',
     category: 'Hewan',
     difficulty: 'Mudah',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Winter Animal Action Scene',
+    clues: ['Proporsi kaki dan cakar perlu diperiksa saat bergerak.', 'Bulu putih menyatu terlalu halus dengan percikan salju.', 'Mata dan hidung memiliki pantulan yang tidak sepenuhnya konsisten.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa anjing putih yang melompat di salju. Bulu, cakar, dan percikan salju memperlihatkan hasil generatif yang dibuat agar tampak seperti foto aksi.'
   },
   {
     id: 'ai-gen-office-woman-33',
     imageUrl: '/img/ai-gen-office-woman-33.jpg',
     isAi: true,
-    title: '',
+    title: 'Potret Wanita Profesional di Ruang Kantor',
     category: 'Potret Wajah',
     difficulty: 'Sedang',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Office Portrait Synthesis',
+    clues: ['Kulit wajah tampak terlalu bersih tanpa variasi pori.', 'Siluet orang di latar terlalu halus dan tidak memiliki detail alami.', 'Batas rambut, telinga, dan wajah perlu diperiksa karena tampak menyatu.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa potret wanita profesional dengan latar kantor buram. Efek depth of field dan detail wajah dibuat secara sintetis.'
   },
   {
     id: 'ai-gen-white-wolf-34',
     imageUrl: '/img/ai-gen-white-wolf-34.jpg',
     isAi: true,
-    title: '',
+    title: 'Serigala Putih Berlari di Salju',
     category: 'Hewan',
     difficulty: 'Mudah',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: White Wolf Wildlife Synthesis',
+    clues: ['Bentuk kaki dan cakar tampak terlalu rapi saat bergerak.', 'Bulu di sekitar wajah menyatu secara digital.', 'Percikan salju dan bayangan tubuh tidak sepenuhnya mengikuti gerakan.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa serigala putih yang berlari di salju. Detail bulu, cakar, dan percikan salju menunjukkan adegan satwa sintetis.'
   },
   {
     id: 'ai-gen-robot-ilustration-woman-35',
     imageUrl: '/img/ai-gen-robot-ilustration-35.png',
     isAi: true,
-    title: '',
+    title: 'Robot Humanoid di Dunia Cat Abstrak',
     category: 'Ilustrasi',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Colorful Humanoid Robot Illustration',
+    clues: ['Sambungan lutut dan lengan tidak menunjukkan konstruksi mekanis lengkap.', 'Permukaan cat dan refleksi robot bercampur tanpa sumber cahaya tunggal.', 'Antena dan detail kepala terlihat terlalu simetris.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa robot humanoid dengan latar cat abstrak warna-warni. Struktur mekanis dan sapuan warna dibuat melalui generasi digital.'
   },
   {
     id: 'ai-gen-grass-36',
     imageUrl: '/img/ai-gen-grass-36.jpg',
     isAi: true,
-    title: '',
+    title: 'Padang Rumput dengan Cahaya Matahari',
     category: 'Alam',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Dreamlike Nature Landscape',
+    clues: ['Bokeh cahaya memiliki bentuk dan ukuran yang terlalu seragam.', 'Helai rumput di latar menyatu menjadi pola yang lembut.', 'Sinar matahari tampak menyebar tanpa sumber optik yang jelas.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa lanskap padang rumput dengan efek bokeh dan cahaya lembut yang dibuat secara generatif.'
   },
   {
     id: 'ai-gen-hijab-37',
     imageUrl: '/img/ai-gen-hijab-37.jpg',
     isAi: true,
-    title: '',
+    title: 'Potret Wanita Berhijab dengan Cahaya Merah',
     category: 'Potret Wajah',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Dramatic Hijab Portrait Synthesis',
+    clues: ['Gigi dan garis bibir tampak terlalu seragam.', 'Tekstur kain hijab menyatu tanpa lipatan kecil yang konsisten.', 'Pantulan cahaya merah pada wajah tidak sepenuhnya mengikuti sumber lampu.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa potret wanita berhijab dengan pencahayaan merah dramatis. Wajah, kain, dan cahaya merupakan hasil sintesis digital.'
   },
   {
     id: 'ai-gen-yellow-car-38',
     imageUrl: '/img/ai-gen-yellow-car-38.jpg',
     isAi: true,
-    title: '',
+    title: 'Mobil Sport Kuning Futuristik',
     category: 'Teknologi',
     difficulty: 'Mudah',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Futuristic Sports Car Concept',
+    clues: ['Bentuk roda dan detail ban tampak tidak sepenuhnya simetris.', 'Refleksi bodi tidak selalu mengikuti garis lingkungan.', 'Beberapa panel dan ventilasi terlihat seperti menyatu tanpa sambungan.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa konsep mobil sport kuning futuristik. Desain bodi, refleksi, dan detail mekanisnya dibuat secara generatif.'
   },
   {
     id: 'ai-gen-wolf-39',
     imageUrl: '/img/ai-gen-wolf-39.jpg',
     isAi: true,
-    title: '',
+    title: 'Serigala Berwajah Domba',
     category: 'Hewan',
     difficulty: 'Sedang',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Surreal Wolf-Sheep Hybrid',
+    clues: ['Bulu domba dan kepala serigala bertemu tanpa transisi biologis.', 'Kaki dan tubuh tidak memiliki proporsi hewan yang konsisten.', 'Tekstur bulu berulang pada beberapa area tubuh.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa makhluk hibrida serigala dan domba. Penggabungan anatomi yang tidak mungkin menjadi petunjuk utama bahwa gambar ini generatif.'
   },
   {
     id: 'ai-gen-cake-40',
     imageUrl: '/img/ai-gen-cake-40.jpg',
     isAi: true,
-    title: '',
+    title: 'Kue Ulang Tahun dengan Lilin Warna-warni',
     category: 'Kuliner',
     difficulty: 'Sedang',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Stylized Birthday Cake Image',
+    clues: ['Lilin di latar memiliki bentuk dan arah yang terlalu seragam.', 'Tekstur krim tampak berulang seperti pola digital.', 'Api lilin tidak semuanya memiliki cahaya dan bayangan yang konsisten.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa kue ulang tahun dengan krim, buah, dan lilin warna-warni. Detail krim, api, dan susunan lilin menunjukkan sintesis digital.'
   },
   {
     id: 'ai-gen-scotland-41',
     imageUrl: '/img/ai-gen-scotland-41.png',
     isAi: true,
-    title: '',
+    title: 'Lembah Pegunungan Saat Matahari Terbenam',
     category: 'Alam',
     difficulty: 'Mudah',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Cinematic Highland Landscape',
+    clues: ['Pantulan cahaya matahari pada air terlalu sempurna.', 'Awan dan kabut memiliki bentuk yang tampak berulang.', 'Garis bukit dan bangunan jauh tidak sepenuhnya konsisten dengan perspektif.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa lanskap pegunungan bergaya sinematik saat matahari terbenam. Cahaya, kabut, dan refleksi air dibuat secara generatif.'
   },
   {
     id: 'ai-gen-pasta-42',
     imageUrl: '/img/ai-gen-pasta-42.jpg',
     isAi: true,
-    title: '',
+    title: 'Pita Pasta Abstrak Berwarna Oranye',
     category: 'Kuliner',
     difficulty: 'Tantangan',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Abstract Pasta Texture Study',
+    clues: ['Lipatan pita pasta berulang dengan pola yang terlalu seragam.', 'Pantulan permukaan tidak selalu mengikuti lekukan material.', 'Tidak terlihat detail pori, tepung, atau ketidaksempurnaan bahan nyata.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa komposisi abstrak pita pasta oranye. Bentuk lengkung dan kilau permukaannya dibuat sebagai tekstur generatif.'
   },
   {
     id: 'ai-gen-tundra-43',
     imageUrl: '/img/ai-gen-tundra-43.jpg',
     isAi: true,
-    title: '',
+    title: 'Tundra Fantasi di Bawah Bulan Merah Muda',
     category: 'Alam',
     difficulty: 'Sedang',
-    creatorInfo: '',
-    clues: ['', '', ''],
-    detailedExplanation: ''
+    creatorInfo: 'Generasi AI: Stylized Tundra Environment Art',
+    clues: ['Garis tepi pegunungan memiliki pola ilustratif yang terlalu seragam.', 'Cahaya bulan merah muda menyebar tanpa sumber atmosfer yang realistis.', 'Lapisan salju dan awan tampak seperti sapuan digital berulang.'],
+    detailedExplanation: 'Ini adalah GAMBAR AI berupa lanskap tundra bergaya ilustrasi dengan bulan merah muda. Warna, pegunungan, dan tekstur salju merupakan komposisi generatif.'
   },
   /* New Real Images */
   {
